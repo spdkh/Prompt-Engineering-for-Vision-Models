@@ -22,3 +22,25 @@ In this course, you'll delve into the realm of prompt engineering for vision mod
 🌟 **Abby Morgan**, **Jacques Verré**, and **Caleb Kaiser** are seasoned Machine Learning Engineers at Comet, bringing their expertise to guide you through the intricacies of vision model prompt engineering.
 
 🔗 For enrollment and additional details, visit [deeplearning.ai](https://www.deeplearning.ai/short-courses/).
+
+## Installation Instructions
+To set up the environment for this course, follow these steps:
+
+```
+conda create -n prompt-engineering-for-vision python=3.9.6
+conda activate prompt-engineering-for-vision
+pip install -r requirements.txt
+```
+
+If using cuda, get cude version:
+
+```
+nvdidia-smi
+```
+
+https://pytorch.org/get-started/locally/
+Then install the appropriate PyTorch version. For example, if you have CUDA 11.6, use:
+
+```
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu116
+```
