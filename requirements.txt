@@ -6,10 +6,7 @@ diffusers==0.26.3
 einops==0.7.0
 jupyterlab
 matplotlib==3.8.4
-numpy==1.26.4
-pillow==10.3.0
 scikit-image==0.22.0
 tqdm==4.66.2
-torch==2.7.1+cu118
 transformers==4.53.2
 ultralytics==8.3.79

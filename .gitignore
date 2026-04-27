@@ -1,6 +1,9 @@
 models/
 *.pt
 *_resized*
+*run.sh
+output_*.txt
+error_*.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

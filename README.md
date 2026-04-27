@@ -39,8 +39,8 @@ nvdidia-smi
 ```
 
 https://pytorch.org/get-started/locally/
-Then install the appropriate PyTorch version. For example, if you have CUDA 11.6, use:
+Then install the appropriate PyTorch version. For example, if you have CUDA 12.6, use:
 
 ```
-pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu116
+pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu126
 ```
