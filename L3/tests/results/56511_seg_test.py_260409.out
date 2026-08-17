@@ -1,0 +1,13 @@
+*** Running Python on: itiger06
+*** Job name: 
+*** Python target: seg_test.py
+Starting water segmentation test...
+[ WARN:0@0.345] global loadsave.cpp:275 findDecoder imread_('/project/sdjkhosh/sick2025-26/examplesbench_trash3.jpg'): can't open/read file: check file path/integrity
+Traceback (most recent call last):
+  File "/project/sdjkhosh/miniconda3/envs/yolo/lib/python3.9/runpy.py", line 188, in _run_module_as_main
+    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)
+  File "/project/sdjkhosh/miniconda3/envs/yolo/lib/python3.9/runpy.py", line 111, in _get_module_details
+    __import__(pkg_name)
+  File "/project/sdjkhosh/Prompt-Engineering-for-Vision-Models/L3/tests/seg_test.py", line 10, in <module>
+    raise FileNotFoundError(f"Could not load image at: {image_path}")
+FileNotFoundError: Could not load image at: /project/sdjkhosh/sick2025-26/examplesbench_trash3.jpg

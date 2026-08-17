@@ -1,0 +1,4 @@
+*** Running Python on: itiger01
+*** Job name: 
+*** Python target: seg_test.py
+slurmstepd: error: *** JOB 56507 ON itiger01 CANCELLED AT 2026-04-09T20:06:41 ***
